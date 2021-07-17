@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    margin-bottom: 20px;
+}
+button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+}
+.aboutimg{
+    width: 95%;
+    height: 270px;
+}
+.container-fluid h2 {
+    padding-top: 25px;
+    color: rgb(148, 9, 9);
+}
+.container-fluid p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    background: rgb(141, 231, 252);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.heading{
+    background: rgb(63, 62, 62);
+    margin-top: 20px;
+    height: 60px;
+}
+.heading h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 35px;
+    font-family: 'Uchen', serif;
+    font-weight:500;
+    letter-spacing: 1px;
+}
+.heading h2:hover{
+    color: rgb(151, 5, 34);
+}
+.container table{
+    margin-top: 20px;
+}
+.container table th{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+.container table td{
+    font-size: 16px;
+    font-weight: 500;
+}
+.container form{
+    margin-top: 50px;
+}
+.container form label{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(148, 11, 11);
+}
+ 

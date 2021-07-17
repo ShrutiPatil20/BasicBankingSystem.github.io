@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.navbar-brand{
+    font-size: 26px;
+    font-weight: 800;
+    margin-left: 23px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 4px;
+}
+.header .logo img{
+    height: 45px;
+    width: 45px;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 50px;
+}
+.header ul a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.main{
+    background: url("images/display.png") no-repeat;
+    background-size: cover;
+    height: 86vh;
+    width: 100%;
+   background-position: 50% 50%;
+}
+.main h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1.5px;
+}
+.main strong:hover{
+    color: rgb(146, 8, 8);
+}
+.main p{
+    font-size: 30px;
+    font-weight: 450;
+    margin-left: 110px;
+    margin-top: 25px;
+    color: rgb(136, 6, 6);
+}
+.main button{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+footer{
+    height: 50px;
+}
+footer p{
+    line-height: 10px;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 9px;
+    text-align: center;
+    line-height: 3px;
+    letter-spacing: 1px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+@media(max-width:767px)and (min-width:300px){
+    .main h1{
+        font-size: 40px;
+    }
+    .main strong:hover{
+    color: rgb(146, 8, 8);
+}
+
+}
+@media(max-width:460px)and (min-width:250px){
+    .main p{
+        font-size: 22px;
+        font-weight: 800;
+        margin-left: 35px;
+    }
+
+}
+@media(max-width:400px)and (min-width:250px){
+    .main button{
+        margin-left: 30px;
+    }
+
+}
+
